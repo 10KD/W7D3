@@ -5,6 +5,7 @@ import { RECEIVE_ALL_POKEMON, receiveAllPokemon, requestAllPokemon } from './act
 import {configureStore} from './store/store';
 import { selectAllPokemon } from './reducers/selectors';
 import Root from './components/root';
+import { HashRouter, Route } from 'react-router-dom';
 
 document.addEventListener('DOMContentLoaded', () => {
   const store = configureStore();
